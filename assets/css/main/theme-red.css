@@ -1,0 +1,104 @@
+/* Main 500 		------------------------------ */
+
+.color--main, 
+a {
+	color: #D32F2F;
+}
+.li--marker:before,
+.success-alert,
+.bg-color--main, 
+.btn--default {
+	background-color: #D32F2F !important;
+}
+
+.bg-color--main-2 hr {
+	opacity: .2;
+}
+
+input[type=range]{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#D32F2F), to(#D32F2F));
+	background-image: linear-gradient(#D32F2F, #D32F2F);
+}
+
+/* Main -- 400	------------------------------ */
+
+[class*=bg]:not([class*=bg-color--white]):not(nav) [class*=bg-color--white] a,
+[class*='background'] [class*=bg-color--white] a,
+a:hover, 
+a:focus {
+	color: #F44336;
+}
+
+.range-slider__range::-webkit-slider-thumb:hover,
+.range-slider__range:active::-webkit-slider-thumb,
+input:checked+.slider,
+.picker--focused .picker__day--highlighted,
+.picker__day--highlighted:hover,
+.bg-color--main-2, 
+.btn--default:hover, .btn--default:focus, .btn--default:active {
+	background-color: #F44336 !important;
+}
+.bg-color--main hr {
+	border-color: #F44336;
+}
+
+@media (min-width: 991px) {	
+.nav--hover--bg.bg-color--main .menu > li:hover,
+.nav--hover--bg.nav--hover--bg--main .menu > li:hover {
+	background-color: #F44336 !important;
+}
+}
+
+[class*="bg-color--main"].bg-color--gradient {
+	background: #F44336;
+	background: radial-gradient(ellipse at center, #F44336 0%,#D32F2F 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F44336', endColorstr='#D32F2F',GradientType=1 );
+}
+
+[class*="bg-color--second"].bg-color--gradient {
+	background: #424242;
+	background: radial-gradient(ellipse at center, #424242 0%,#212121 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#212121',GradientType=1 );
+}
+
+/* Second A400 	------------------------------ */
+
+.color--second {
+	color: #212121;
+}
+
+.bg-color--second {
+	background-color: #212121 !important;
+}
+
+@media (min-width: 991px) {
+.nav--hover--bg.nav--hover--bg--second .menu > li:hover  {
+	background-color: #212121 !important;
+}
+}
+
+.border-color--second,
+.border-color--second:after,
+.border-color--second:before,
+.nav--hover--line--second .menu > li:hover {
+	border-color: #212121 !important;
+}
+
+/* Second A200 	------------------------------ */
+
+.bg-color--second-2 {
+	background-color: #424242 !important;
+}
+.bg-color--second hr {
+	border-color: #424242;
+}
+
+.bg-color--second.btn:hover, .bg-color--second.btn:focus, .bg-color--second.btn:active {
+	background-color: #424242 !important;
+}
+
+.bg-color--second.btn, 
+.bg-color--second.btn i {
+	color: rgba(255,255,255,1);
+	font-weight: 700;
+}
